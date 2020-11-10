@@ -12,15 +12,22 @@
 
 
     <style>
+      .jumbotron {
+         background: url('helloworld.png');
+         background-repeat: no-repeat;
+         background-size: auto;
+       }
+
       img {
         object-fit: contain;
-        height: 350px;
+        max-height: 350px;
+        max-width: 100%;
+        margin: auto;
         width: auto;
-        float: right;
       }
 
-      .row {
-        padding: 5px;
+      .featurette {
+        margin: 5%;
       }
     </style>
 
@@ -30,7 +37,7 @@
       <div class="bg-dark" id="navbarHeader" style="">
         <div class="container">
           <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
+            <div class="col-sm-8 col-md-6 py-4">
               <h4 class="text-white">Welcome</h4>
               <p class="text-muted">My name is Joe Santy.  I'm a bilingual developer, consultant, and educator.  I hold a bachelor's degree in International Business and master's degree in Curriculum and Instruction.  Over the past ten years, I traveled the world teaching English.  Now I work as a supply chain management consultant based out of Atlanta.  I yearn to develop a career in software development and achieve location independence.</p>
             </div>
@@ -61,7 +68,7 @@
     <main role="main">
 
       <section class="jumbotron text-center">
-        <div class="container" style="background:url('helloworld.png')">
+        <div class="container">
           <h1 class="jumbotron-heading">Joe Santy</h1>
           <p class="lead text-muted">Bilingual developer, consultant, and educator</p>
         </div>
