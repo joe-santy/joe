@@ -12,25 +12,15 @@
 
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
       img {
         object-fit: contain;
         height: 350px;
         width: auto;
+        float: right;
       }
-	    
-      * {
-	background: white;
+
+      .row {
+        padding: 5px;
       }
     </style>
 
@@ -71,7 +61,7 @@
     <main role="main">
 
       <section class="jumbotron text-center">
-        <div class="container">
+        <div class="container" style="background:url('helloworld.png')">
           <h1 class="jumbotron-heading">Joe Santy</h1>
           <p class="lead text-muted">Bilingual developer, consultant, and educator</p>
         </div>
@@ -81,43 +71,38 @@
         <div class="container">
 
           <div class="row featurette">
-            <div class="col-md-7">
-	      <div class="container">
-                <h2 class="featurette-heading">Career</h2>
-	      </div>
-              <div class="container">
-	        <ul>
-                  <li>Supply Chain Management Consultant at ITOrizon, 2019-present</li>
-                  <ul>
-                    <li>Fanatics - Warehouse Management support and testing</li>
-                    <li>Hot Topic - Labor Management implementation</li>
-                    <li>Hot Topic - Order Management support</li>
-                    <li>Duracell - Warehouse Management implementation</li>
-                  </ul>
-                  <li>Teacher, 2010-2018</li>
-                  <ul>
-                    <li>ESOL, ages 6-16, E-Bo Young Academy in Gwangju, South Korea</li>
-                    <li>Elementary, ages 5-12, POLY School in Busan, South Korea</li>
-                    <li>ESOL, ages 6-16, Avalon Academy in Busan, South Korea</li>
-                    <li>ESOL, ages 6-16, Kongnam Academy in Seoul, South Korea</li>
-                    <li>Business English, adults, Web International English in Shanghai, China</li>
-                    <li>Preschool, ages 4-6, Kojen Academy in Taipei, Taiwan</li>
-                  </ul>
-                  <li>Odd jobs over the years - tutor, camp counsellor, autistic school paraprofessional, promoter, bartender, warehouse associate</li>
-                </ul>
-	      </div>
-            </div>
             <div class="col-md-5">
-	      <div class="container"><img src="work.jpg" style="float:right"></div>
+              <img src="work.jpg">
+            </div>
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Career</h2>
+              <ul>
+                <li>Supply Chain Management Consultant at ITOrizon, 2019-present</li>
+                <ul>
+                  <li>Fanatics - Warehouse Management support and testing</li>
+                  <li>Hot Topic - Labor Management implementation</li>
+                  <li>Hot Topic - Order Management support</li>
+                  <li>Duracell - Warehouse Management implementation</li>
+                </ul>
+                <li>Teacher, 2010-2018</li>
+                <ul>
+                  <li>ESOL, ages 6-16, E-Bo Young Academy in Gwangju, South Korea</li>
+                  <li>Elementary, ages 5-12, POLY School in Busan, South Korea</li>
+                  <li>ESOL, ages 6-16, Avalon Academy in Busan, South Korea</li>
+                  <li>ESOL, ages 6-16, Kongnam Academy in Seoul, South Korea</li>
+                  <li>Business English, adults, Web International English in Shanghai, China</li>
+                  <li>Preschool, ages 4-6, Kojen Academy in Taipei, Taiwan</li>
+                </ul>
+                <li>Odd jobs over the years - tutor, camp counsellor, autistic school paraprofessional, promoter, bartender, warehouse associate</li>
+              </ul>
             </div>
           </div> <!-- end row -->
 
           <div class="row featurette">
             <div class="col-md-5">
-		    <div class="container"><img src="masters.jpg" style="float:left"></div>
+              <img src="masters.jpg">
             </div>
             <div class="col-md-7">
-		    <div class="container">
               <h2 class="featurette-heading">Education</h2>
               <ul>
                 <li>M.Ed. Curriculum and Instruction, University of South Florida, 2011</li>
@@ -133,13 +118,14 @@
                   <li>3.42 GPA</li>
                 </ul>
               </ul>
-		    </div>
             </div>
           </div> <!-- end row -->
 
           <div class="row featurette">
+            <div class="col-md-5">
+              <img src="js.png">
+            </div>
             <div class="col-md-7">
-		    <div class="container">
               <h2 class="featurette-heading">Coding</h2>
               <ul>
                 <li>HTML/CSS</li>
@@ -154,28 +140,22 @@
                 <li>MERN & MEAN</li>
                 <li>jQuery, Bootstrap, APIs, etc.</li>
               </ul>
-		    </div>
-            </div>
-            <div class="col-md-5">
-		    <div class="container"><img src="js.png" style="float:right"></div>
             </div>
           </div> <!-- end row -->
 
           <div class="row featurette">
             <div class="col-md-5">
-		    <div class="container"><img src="home.jpg" style="float:left"></div>
+              <img src="home.jpg">
             </div>
             <div class="col-md-7">
-		    <div class="container">
               <h2 class="featurette-heading">Passion</h2>
               <p>A Board With A Bag describes the lifestyle I have lived over the past two decades, centered around skateboarding and travel.  The most important aspects of my life include connection with loved ones, continuous learning, sharing with others, and creative expression through coding, skateboarding, or other endeavors.  The project I'm most proud of so far is building my own home in Nicaragua with my friends.  I view life as an exciting adventure and strive to just keep doing the next right thing, wherever life takes me.</p>
-		    </div>
-	    </div>
+            </div>
           </div> <!-- end row -->
 
-          <div class="row">
+          <div class="row featurette">
             <div class="col-md-12">
-		    <div class="container"><img src="wallieboardslide.jpg"></div>
+              <img src="wallieboardslide.jpg">
             </div>
           </div> <!-- end row -->
 
